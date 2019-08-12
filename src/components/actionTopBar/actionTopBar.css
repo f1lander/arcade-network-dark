@@ -1,10 +1,13 @@
 
 .actionBarContainer{
+    max-width: 424px;
     width: 100%;
+    min-width: 360px;
+    margin: 0 auto;
     height: 42px;
     background-color: #1C164A;
     top:0;
-    position: relative;
+    position: fixed;
     border-bottom-left-radius: 15px;
     font-size: 16px;
 }

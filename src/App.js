@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import '../node_modules/bulma/css/bulma.min.css'
-import  ActionTopBar  from './components/actionTopBar/actionTopBar'
+import ActionTopBar  from './components/actionTopBar/actionTopBar'
+import NavBar from './components/navBar/navBar'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ActionTopBar></ActionTopBar>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <NavBar></NavBar>
       </header>
     </div>
   );
